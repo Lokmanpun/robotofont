@@ -1,0 +1,75 @@
+
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto&display=swap');
+       
+}
+
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding:10px;
+    }
+    
+    p {
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+       
+    }
+
+    h1{
+      font-family: 'Merienda One', cursive;
+      font-size: 25px;
+      position:absolute;
+      top:7px;
+      left:22%;
+      color:white;
+      text-shadow:2px 3px 4px #3333ff;
+}
+    
+    h2{
+      font-family: 'Merienda One', cursive;
+       font-size: 25px; 
+       position:absolute;
+       top:7px;
+       left:55%;
+       color:white;
+       text-shadow:2px 3px 4px #3333ff;
+       }
+       
+       h3{
+       font-family: 'Merienda One', cursive;
+       font-size: 25px;
+       position:absolute;
+       top:7px;
+       right:7%;
+       color:white;
+       text-shadow:2px 3px 4px #3333ff;
+    }
+
+  
+     .container {
+      float: left;
+      width: 32%;
+      height: auto;
+      padding: 5px;
+      border: 2px solid #A9A9A9;
+      background-color: #E0FFFF;
+      transition: transform 0.3s;
+     
+
+    }
+
+    .container:hover {
+      background-color: #2F4F4F;
+      color: white;
+      transform: translate(-5px, -5px);
+    }
+ img{
+ width:500px;
+ height:350px;
+ }
+    
